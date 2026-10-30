@@ -428,7 +428,7 @@ compatibilidad_fluido_material = {
         "FPM": "Excelente",
         "POM": "Excelente",
         "PTFE": "Excelente",
-        "HPU": "Buena",
+        "HPU": "No compatible",  # 30/10/2026: antes "Buena" (DMH); Aero col AU/EU + ISM col PUR = No compatible
         "UHMWPE": "Sin dato de laboratorio",
         "AFLAS": "Excelente",
         "PA": "Excelente",
@@ -2143,11 +2143,11 @@ compatibilidad_fluido_material = {
     },
     "AMMONIUM PERSULFATE": {
         "EPDM": "Excelente",
-        "NBR": "No compatible",
+        "NBR": "Excelente",  # 30/10/2026: antes "No compatible" (DMH); ISM col NBR + Little Giant col Buna N = Excelente
         "H-NBR": "No compatible",
         "C-HPU": "No compatible",
         "MVQ": "No compatible",
-        "FPM": "Regular",
+        "FPM": "Excelente",  # 30/10/2026: antes "Regular" (DMH); Aero col FKM Type I + ISM col FKM = Excelente
         "POM": "Excelente",
         "PTFE": "Excelente",
         "HPU": "No compatible",
@@ -2464,7 +2464,7 @@ compatibilidad_fluido_material = {
         "PA": "Sin dato de laboratorio",
     },
     "AMYL ACETATE (BANANA OIL)": {
-        "EPDM": "Regular",
+        "EPDM": "Excelente",  # 30/10/2026: antes "Regular" (DMH); ISM col EPDM + Little Giant col EPM = Excelente
         "NBR": "No compatible",
         "H-NBR": "No compatible",
         "C-HPU": "No compatible",
@@ -5310,7 +5310,7 @@ compatibilidad_fluido_material = {
         "NBR": "Excelente",
         "H-NBR": "Excelente",
         "C-HPU": "Regular",
-        "MVQ": "Regular",
+        "MVQ": "Excelente",  # 30/10/2026: antes "Regular" (DMH); Aero col SI + ISM col VMQ = Excelente
         "FPM": "Excelente",
         "POM": "Excelente",
         "PTFE": "Excelente",
@@ -6146,7 +6146,7 @@ compatibilidad_fluido_material = {
         "PA": "Sin dato de laboratorio",
     },
     "BUTADIENE (1,3-)": {
-        "EPDM": "Excelente",
+        "EPDM": "Regular",  # 30/10/2026: antes "Excelente" (DMH); Aero col EPM/EPDM + ISM col EPDM = Regular
         "NBR": "No compatible",
         "H-NBR": "No compatible",
         "C-HPU": "No compatible",
@@ -6258,7 +6258,7 @@ compatibilidad_fluido_material = {
         "PA": "Sin dato de laboratorio",
     },
     "BUTTER (ANIMAL FAT)": {
-        "EPDM": "No compatible",
+        "EPDM": "Excelente",  # 30/10/2026: antes "No compatible" (DMH); Aero col EPM/EPDM + Little Giant col EPM = Excelente
         "NBR": "Excelente",
         "H-NBR": "Excelente",
         "C-HPU": "Regular",
@@ -7158,7 +7158,7 @@ compatibilidad_fluido_material = {
         "NBR": "Excelente",
         "H-NBR": "Excelente",
         "C-HPU": "No compatible",
-        "MVQ": "No compatible",
+        "MVQ": "Excelente",  # 30/10/2026: antes "No compatible" (DMH); Aero col SI + ISM col VMQ = Excelente
         "FPM": "Excelente",
         "POM": "Excelente",
         "PTFE": "Excelente",
@@ -7756,7 +7756,7 @@ compatibilidad_fluido_material = {
         "PA": "Sin dato de laboratorio",
     },
     "CARBOLIC ACID": {
-        "EPDM": "No compatible",
+        "EPDM": "Buena",  # 30/10/2026: antes "No compatible" (DMH); Aero col EPM/EPDM + ISM col EPDM = Buena
         "NBR": "No compatible",
         "H-NBR": "No compatible",
         "C-HPU": "No compatible",
@@ -8699,7 +8699,7 @@ compatibilidad_fluido_material = {
         "H-NBR": "No compatible",
         "C-HPU": "No compatible",
         "MVQ": "No compatible",
-        "FPM": "No compatible",
+        "FPM": "Excelente",  # 30/10/2026: antes "No compatible" (DMH); ISM col FKM + Little Giant col Viton = Excelente
         "POM": "No compatible",
         "PTFE": "Excelente",
         "HPU": "No compatible",
@@ -12167,7 +12167,7 @@ compatibilidad_fluido_material = {
     },
     "DIETHYLAMINE": {
         "EPDM": "Buena",
-        "NBR": "No compatible",
+        "NBR": "Buena",  # 30/10/2026: antes "No compatible" (DMH); Aero col NBR + Little Giant col Buna N = Buena
         "H-NBR": "No compatible",
         "C-HPU": "Regular",
         "MVQ": "Buena",
@@ -14168,7 +14168,7 @@ compatibilidad_fluido_material = {
         "PA": "Sin dato de laboratorio",
     },
     "ETHYL BENZOATE": {
-        "EPDM": "No compatible",
+        "EPDM": "Excelente",  # 30/10/2026: antes "No compatible" (DMH); Aero col EPM/EPDM + ISM col EPDM = Excelente
         "NBR": "No compatible",
         "H-NBR": "No compatible",
         "C-HPU": "No compatible",
@@ -14294,7 +14294,7 @@ compatibilidad_fluido_material = {
         "PA": "Sin dato de laboratorio",
     },
     "ETHYL CHLORIDE": {
-        "EPDM": "Regular",
+        "EPDM": "Excelente",  # 30/10/2026: antes "Regular" (DMH); ISM col EPDM + Little Giant col EPM = Excelente
         "NBR": "Excelente",
         "H-NBR": "Sin dato de laboratorio",
         "C-HPU": "Buena",
@@ -18368,7 +18368,7 @@ compatibilidad_fluido_material = {
         "PA": "No compatible",
     },
     "HYDROFLUORIC ACID 75%": {
-        "EPDM": "Excelente",
+        "EPDM": "Regular",  # 30/10/2026: antes "Excelente" (DMH); ISM col EPDM + Little Giant col EPM = Regular
         "NBR": "No compatible",
         "H-NBR": "No compatible",
         "C-HPU": "No compatible",
@@ -20035,7 +20035,7 @@ compatibilidad_fluido_material = {
     },
     "LEAD SULFAMATE": {
         "EPDM": "Excelente",
-        "NBR": "No compatible",
+        "NBR": "Buena",  # 30/10/2026: antes "No compatible" (DMH); Aero col NBR + Little Giant col Buna N = Buena
         "H-NBR": "Excelente",
         "C-HPU": "Buena",
         "MVQ": "Buena",
@@ -21435,7 +21435,7 @@ compatibilidad_fluido_material = {
     },
     "METHYL BROMIDE": {
         "EPDM": "No compatible",
-        "NBR": "No compatible",
+        "NBR": "Buena",  # 30/10/2026: antes "No compatible" (DMH); Aero col NBR + Little Giant col Buna N = Buena
         "H-NBR": "No compatible",
         "C-HPU": "No compatible",
         "MVQ": "No compatible",
@@ -23122,7 +23122,7 @@ compatibilidad_fluido_material = {
         "FPM": "Excelente",
         "POM": "Excelente",
         "PTFE": "Excelente",
-        "HPU": "Excelente",
+        "HPU": "No compatible",  # 30/10/2026: antes "Excelente" (DMH); Aero col AU/EU + ISM col PUR = No compatible
         "UHMWPE": "Excelente",
         "AFLAS": "Excelente",
         "PA": "Excelente",
@@ -24980,7 +24980,7 @@ compatibilidad_fluido_material = {
         "NBR": "Excelente",
         "H-NBR": "Excelente",
         "C-HPU": "Buena",
-        "MVQ": "No compatible",
+        "MVQ": "Excelente",  # 30/10/2026: antes "No compatible" (DMH); Aero col SI + ISM col VMQ = Excelente
         "FPM": "Excelente",
         "POM": "Excelente",
         "PTFE": "Excelente",
@@ -27655,7 +27655,7 @@ compatibilidad_fluido_material = {
         "H-NBR": "No compatible",
         "C-HPU": "No compatible",
         "MVQ": "No compatible",
-        "FPM": "Regular",
+        "FPM": "Excelente",  # 30/10/2026: antes "Regular" (DMH); Aero col FKM Type I + ISM col FKM = Excelente
         "POM": "Sin dato de laboratorio",
         "PTFE": "Excelente",
         "HPU": "No compatible",
@@ -27818,7 +27818,7 @@ compatibilidad_fluido_material = {
         "PA": "Sin dato de laboratorio",
     },
     "PHENOL (CARBOLIC ACID)": {
-        "EPDM": "No compatible",
+        "EPDM": "Buena",  # 30/10/2026: antes "No compatible" (DMH); Aero col EPM/EPDM + ISM col EPDM = Buena
         "NBR": "No compatible",
         "H-NBR": "No compatible",
         "C-HPU": "Regular",
@@ -31907,7 +31907,7 @@ compatibilidad_fluido_material = {
     },
     "SODIUM BISULFITE": {
         "EPDM": "Excelente",
-        "NBR": "Regular",
+        "NBR": "Excelente",  # 30/10/2026: antes "Regular" (DMH); ISM col NBR + Little Giant col Buna N = Excelente
         "H-NBR": "Excelente",
         "C-HPU": "No compatible",
         "MVQ": "Sin dato de laboratorio",
@@ -33506,7 +33506,7 @@ compatibilidad_fluido_material = {
         "NBR": "Regular",
         "H-NBR": "Buena",
         "C-HPU": "Regular",
-        "MVQ": "No compatible",
+        "MVQ": "Buena",  # 30/10/2026: antes "No compatible" (DMH); Aero col SI + ISM col VMQ = Buena
         "FPM": "Buena",
         "POM": "Excelente",
         "PTFE": "Excelente",
@@ -34039,7 +34039,7 @@ compatibilidad_fluido_material = {
         "H-NBR": "Regular",
         "C-HPU": "Regular",
         "MVQ": "No compatible",
-        "FPM": "Regular",
+        "FPM": "Excelente",  # 30/10/2026: antes "Regular" (DMH); ISM col FKM + Little Giant col Viton = Excelente
         "POM": "No compatible",
         "PTFE": "Excelente",
         "HPU": "Regular",
@@ -37861,7 +37861,7 @@ compatibilidad_fluido_material = {
         "H-NBR": "No compatible",
         "C-HPU": "No compatible",
         "MVQ": "No compatible",
-        "FPM": "No compatible",
+        "FPM": "Excelente",  # 30/10/2026: antes "No compatible" (DMH); Aero col FKM Type I + Little Giant col Viton = Excelente
         "POM": "Excelente",
         "PTFE": "Excelente",
         "HPU": "No compatible",
@@ -38467,10 +38467,11 @@ from typing import Any, Dict, List, Optional
 # =============================================================================
 # P4 - CATÁLOGO FUENTE DE COMPATIBILIDAD FLUIDO / MATERIAL
 # -----------------------------------------------------------------------------
-# Este módulo preserva la tabla del proveedor como FUENTE TÉCNICA PRIMARIA.
+# Base: tabla de compatibilidad del proveedor DMH con 24 celdas corregidas el 30/10/2026
+# con Aero Rubber, ISM y Little Giant (cada celda corregida lleva su comentario en el diccionario).
 #
 # Principios:
-# 1. NO alterar el contenido del catálogo del proveedor.
+# 1. Conservar la tabla DMH; solo difieren las 24 celdas corregidas el 30/10/2026 (comentadas).
 # 2. Agregar una capa P4 de:
 #    - normalización de entrada
 #    - búsqueda robusta
@@ -38481,7 +38482,7 @@ from typing import Any, Dict, List, Optional
 #    - interpretación operativa P4
 #
 # Fuente base:
-#   Diccionario compatibilidad_fluido_material provisto por proveedor.
+#   Tabla DMH (Material Chemical Compatibility.xlsx) y corrección Aero, ISM y Little Giant del 30/10/2026.
 # =============================================================================
 
 # IMPORTANTE:
@@ -38935,7 +38936,7 @@ def evaluar_compatibilidad_fluido_material_p4(
                 "fluido": "Seleccionar nombre exacto del catálogo del proveedor",
                 "material": normalizar_material(material),
         # ANCLA_FINAL: ESTADO_HONESTO_MATERIAL_NO_CATALOGADO_P4
-                "catalogo": "Tabla de compatibilidad química del proveedor",
+                "catalogo": "Tabla proveedor DMH y corrección Aero, ISM y Little Giant",
             },
         }
 
@@ -38997,7 +38998,7 @@ def evaluar_compatibilidad_fluido_material_p4(
         "fuente_a_validar": {
             "fluido": consulta["nombre_catalogo"],
             "material": normalizar_material(material),
-            "catalogo": "Tabla de compatibilidad química del proveedor",
+            "catalogo": "Tabla proveedor DMH y corrección Aero, ISM y Little Giant",
         },
     }
 
